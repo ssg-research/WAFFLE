@@ -19,6 +19,12 @@ You need to have a working conda setup (Conda 4.8.3 and Python 3.7.7 would be th
 
 We use PySyft 0.2.x, an ecosystem that supports federated learning, differential privacy and homomorphic encryption. Its codebase is in its own branch [here](https://github.com/OpenMined/PySyft/tree/syft_0.2.x), but OpenMined announced that they will not offer official support for this version range. You can visit [here](https://github.com/OpenMined/PySyft) to check the latest updates. 
 
+#### Training federated learning models
+
+#### Integrating WAFFLE into federated learning models
+
+#### Watermark removal attacks 
+
 ## Citation
 If you find our work useful in your research, you can cite the paper as follows:
 ```
