@@ -42,7 +42,7 @@ def zero_weight(model):
 def calculate_weight(updated_w, client_subset, num_clients, model):
     with torch.set_grad_enabled(False):
         for i, (name, param) in enumerate(model.named_parameters(), 0):
-            updated_w[i] += (client_subset * param.get())/num_clients
+            updated_w[i] += param.get())/client_subset
 
         return updated_w
 
